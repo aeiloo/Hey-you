@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Hey You ❤️</title>
+<title>Hey Liz ❤️</title>
 <style>
 * {
   box-sizing: border-box;
@@ -122,9 +122,9 @@ button:hover {
 <!-- INTRO SCREEN -->
 <div class="screen" id="intro">
   <div class="card">
-    <h1>Hey… 👀</h1>
-    <p>I made something special for you 💕</p>
-    <button class="yes" id="startBtn">Open it 💖</button>
+    <h1>Привет </h1>
+    <p>Я сделал для тебя кое-что особенное 💕</p>
+    <button class="yes" id="startBtn">Открой это 💖</button>
   </div>
 </div>
 
@@ -134,8 +134,8 @@ button:hover {
     <h1 id="questionText"></h1>
     <p id="questionSubtext"></p>
     <div class="buttons">
-      <button class="yes" id="yesBtn">Yes 💕</button>
-      <button class="no" id="noBtn">No 🙄</button>
+      <button class="yes" id="yesBtn">да 💕</button>
+      <button class="no" id="noBtn">нет 🙄</button>
     </div>
   </div>
 </div>
@@ -143,16 +143,16 @@ button:hover {
 <!-- YES OVERLAY -->
 <div class="overlay hidden" id="yesOverlay">
   <div class="popup">
-    <h2>As you should 😌❤️</h2>
+    <h2>Как тебе и следует 😌❤️</h2>
     <p>
-      I also wanted you to know that you mean a lot to me.<br><br>
-      Every time we talk, play, tease each other, or when I’m just waiting for your notification… I end up smiling like a complete goofball 😅<br><br>
-      I catch myself thinking about you way more than I probably should 🤭<br><br>
-      Even though this is online, it feels so real , like you’re right here ✧｡٩(ˊᗜˋ)و✧*｡<br><br>
-      I don’t know what the future holds, but I do know I’m really happy I met you…<br>
-      and I’m so glad you’re my Valentine 💖<br><br>
-      Hope this little surprise makes you smile as much as you make me smile every single day.<br><br>
-      <strong>I love you ❤️</strong>
+    С Днем святого Валентина, моя любовь 💖
+    Я просто хотел напомнить тебе, как много ты для меня значишь. У тебя есть удивительный способ делать меня счастливее с каждой секундой. <br><br>
+    Каждый наш разговор и каждый раз, когда я смотрю в твои глаза, я чувствую себя на вершине мира. <br><br>
+    Ты заставляешь меня чувствовать заботу и невероятное счастье таким образом, который трудно объяснить, но невозможно игнорировать. Ты неотразима. <br><br>
+    Я так благодарен, что у меня была возможность встретить тебя, узнать тебя и иметь эти удивительные отношения с любовью всей моей жизни. <br><br>
+    Я надеюсь, что сегодня и завтра напомнят тебе, как сильно я тебя люблю и как ты для меня особенная. <br><br>
+    Ты мое всё. <br><br>
+    <strong> Я так сильно тебя люблю, Лиз. ❤️ </strong> 
     </p>
   </div>
 </div>
@@ -160,26 +160,26 @@ button:hover {
 <!-- NO OVERLAY -->
 <div class="overlay hidden" id="noOverlay">
   <div class="popup">
-    <h2>Nice try 😏</h2>
-    <p>You didn’t actually have a choice, silly 💘</p>
-    <button class="yes" id="fineBtn">Okay fineee 💕</button>
+    <h2>Хорошая попытка 😏</h2>
+    <p>У тебя на самом деле не было выбора, глупышка 💘</p>
+    <button class="yes" id="fineBtn">Ладно, хорошооо 💕</button>
   </div>
 </div>
 
 <script>
 // Random openings & questions
 const openings = [
-  "Hey you… I've been thinking 👀",
-  "Okay I can't hold this in anymore 😳",
-  "Psst… you. Yeah YOU 💕",
-  "I have something important to ask…",
-  "Caught you scrolling~ 😏",
-  "Listen… I need to tell you something"
+  "Привет… я тут подумал 👀",
+  "Ладно, я больше не могу это держать в себе 😳",
+  "Псс… ты. Да, ТЫ 💕",
+  "Мне нужно задать тебе важный вопрос…",
+  "Поймал тебя за скроллингом~ 😏",
+  "Слушай… мне нужно тебе кое-что сказать"
 ];
 
 const questions = [
-  "So… will you be my Valentine? 💘",
-  "Be honest… wanna be my Valentine? 👉👈",
+  "Итак… ты будешь моим Валентином? 💘",
+  "Будь честен… хочешь быть моим Валентиным?? 👉👈",
 ];
 
 document.getElementById("questionText").innerText = openings[Math.floor(Math.random() * openings.length)];
